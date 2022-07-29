@@ -1,0 +1,92 @@
+html, body{
+    height: 100%;
+}
+body{
+    background: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background: url(images/bg-pattern-top.svg) -40% 220% no-repeat, 
+                      url(images/bg-pattern-bottom.svg) 125% -200% no-repeat,
+                      hsl(185, 75%, 39%);
+}
+h2{
+    margin: 0;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+p{
+    margin: 0;
+}
+hr{
+    color: hsl(227, 10%, 46%);
+    width: 348px;
+    margin: 0;
+
+}
+.card{
+    width: 350px;
+    height: 380px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.img-fondo{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div.perfil{
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+}
+img.img-perfil{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    position: relative;
+    top: -48px;
+    left: -49px;
+    border: 5px solid white;
+    margin: 0;
+}
+.personal-info{
+    margin: 60px 0 20px 0;
+}
+.nombre{
+    margin: 0;
+}
+.ciudad{
+    margin: 0;
+}
+.cantidad{
+    margin: 20px 0;
+    display: flex;
+}
+.follow{
+    margin: 0 20px;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (max-width:600px) {
+    body{
+        background: url(images/bg-pattern-top.svg) -730px -400px no-repeat,
+                    url(images/bg-pattern-bottom.svg) 158px 510px no-repeat,
+                    hsl(185, 75%, 39%);
+    }
+}
